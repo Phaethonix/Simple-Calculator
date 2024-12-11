@@ -1,13 +1,26 @@
-I love alexkdeveloper's calculator [https://github.com/alexkdeveloper/calculator](url), but he has archived his repository, so I made a .sh version like his for personal use but decided to share it for anyone who might need it. 
+I love [Alexkdeveloper's calculator](https://github.com/alexkdeveloper/calculator), but since the repository has been archived, I created a `.sh` version similar to his for personal use. However, I decided to share it in case anyone else might find it useful.  
 
-Just download and run `chmod +x calc.sh` — it should work, I think. This is my first repo, so forgive me if I’m missing something.
+To use it, simply download the script and run:  
+```bash
+chmod +x calc.sh
+```  
+It should work, but since this is my first repository, please forgive me if I missed anything.
 
-![image](https://github.com/user-attachments/assets/ab6d84de-efd0-4bdc-831f-053ee8e432bb)
+![image](https://github.com/user-attachments/assets/e2b3ce42-0325-4163-a638-371fdea4f9b9)
 
+### Installation Instructions  
 
-On Arch Linux:
-`sudo pacman yad bc sed`
-On Ubuntu/Debian-based systems:
-`sudo apt-get  yad bc sed`
-On Fedora: 
-`sudo dnf yad bc sed`
+#### On Arch Linux:  
+```bash
+sudo pacman -S yad bc sed
+```  
+
+#### On Ubuntu/Debian-based systems:  
+```bash
+sudo apt-get install yad bc sed
+```  
+
+#### On Fedora:  
+```bash
+sudo dnf install yad bc sed
+```  
